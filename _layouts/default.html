@@ -10,8 +10,13 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
+        {%- include goal.html -%}
+        {%- include description.html -%}
+        {%- include aboutUs.html -%}
+
       </div>
     </main>
+
 
     {%- include footer.html -%}
 
