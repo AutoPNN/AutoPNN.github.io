@@ -44,8 +44,21 @@ people:
     - title: email
       url: mailto:zervakis@ceid.upatras.gr
 
-- name: Florentia Afentaki
+- name: Marilena Dounavi
   pic: 2
+  position: Postdoctoral Researcher
+  # social:
+    # - title: scholar
+    #   url: 
+    # - title: email
+      # url: mailto:afentaki@ceid.upatras.gr
+    # - title: linkedin
+      # url: https://www.linkedin.com/in/florentia-afentaki/
+
+
+
+- name: Florentia Afentaki
+  pic: 3
   position: PhD Candidate
   social:
     # - title: scholar
