@@ -39,9 +39,9 @@ people:
   pic: 1
   position: Assistant Professor
   social:
-    - title: scholar
+    - title: graduation-cap
       url: https://scholar.google.gr/citations?user=hZtfPegAAAAJ&hl=el
-    - title: email
+    - title: envelope
       url: mailto:zervakis@ceid.upatras.gr
 
 - name: Marilena Dounavi
@@ -63,7 +63,7 @@ people:
   social:
     # - title: scholar
     #   url: 
-    - title: email
+    - title: envelope
       url: mailto:afentaki@ceid.upatras.gr
     - title: linkedin
       url: https://www.linkedin.com/in/florentia-afentaki/
