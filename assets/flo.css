@@ -10,8 +10,6 @@ body {
 }
 
 p {
-    padding-left: 100px;
-    padding-right: 25px;
     font-size: 14px;
     line-height: 1.75;
 }
@@ -328,11 +326,11 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+/* #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-size: 16px;
     font-style: italic;
-}
+} */
 
 #portfolio * {
     z-index: 2;
@@ -559,9 +557,9 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-.team-member p {
+/* .team-member p {
     margin-top: 0;
-}
+} */
 
 aside.clients img {
     margin: 50px auto;
@@ -578,9 +576,9 @@ section#contact .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
+/* section#contact .form-group {
     margin-bottom: 25px;
-}
+} */
 
 section#contact .form-group input,
 section#contact .form-group textarea {
@@ -691,9 +689,9 @@ ul.social-buttons li a:active
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content p {
-    margin-bottom: 30px;
-}
+/* .portfolio-modal .modal-content p { */
+    /* margin-bottom: 30px; */
+/* } */
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
