@@ -18,6 +18,49 @@ p.large {
     font-size: 16px;
 }
 
+ /* Container holding the image and the text */
+ .container {
+    /* position: relative; */
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+
 a,
 a:hover,
 a:focus,
@@ -34,6 +77,27 @@ h5,
 h6 {
     text-transform: uppercase;
     font-weight: 700
+}
+
+/* .img-fluid {
+    opacity: 0.5;
+}
+
+/* .opacity20{
+    opacity: 0.2;
+} */ 
+
+.container{
+    background-color: #222;
+    opacity: 0.5;
+    text-align: center;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .img-centered {
@@ -238,7 +302,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 20px 0;
+    padding: 0 0;
 }
 
 section h2.section-heading {
@@ -257,7 +321,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 0 0 50px;
     }
 }
 

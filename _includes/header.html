@@ -7,9 +7,9 @@
       <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
       <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
         {%- if site.logo -%}
-          <img src="{{site.logo |relative_url}}" alt="{{ site.title | escape }}" width="50" height="50"></img>
+          <img src="{{site.logo |relative_url}}" alt="{{ site.title | escape }}" height="50"></img>
         {%- else -%}
-          {{ site.title | escape }}</a>
+          {{ site.title | escape }}
         {%- endif -%}
 
       {%- if page_paths -%}
@@ -59,3 +59,10 @@
     }
   }
   </script>
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="js/bootstrap.min.js"></script>
+
+   <body>
