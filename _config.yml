@@ -36,7 +36,7 @@ logo: images/logo.svg
 # Team names, titles and social links
 people:
 - name: Georgios Zervakis
-  pic: 1
+  pic: Zervakis
   position: Assistant Professor
   social:
     - title: graduation-cap
@@ -45,28 +45,28 @@ people:
       url: mailto:zervakis@ceid.upatras.gr
 
 - name: Marilena Dounavi
-  pic: 2
+  pic: Dounavi
   position: Postdoctoral Researcher
-  # social:
-    # - title: scholar
-    #   url: 
-    # - title: email
-      # url: mailto:afentaki@ceid.upatras.gr
+  social:
+    - title: graduation-cap
+      url: https://scholar.google.com/citations?hl=en&user=YAfTI78AAAAJ
+    - title: envelope
+      url: mailto:mardounavi@ceid.upatras.gr
     # - title: linkedin
       # url: https://www.linkedin.com/in/florentia-afentaki/
 
 
 
 - name: Florentia Afentaki
-  pic: 3
+  pic: Afentaki2
   position: PhD Candidate
   social:
     # - title: scholar
     #   url: 
     - title: envelope
       url: mailto:afentaki@ceid.upatras.gr
-    - title: linkedin
-      url: https://www.linkedin.com/in/florentia-afentaki/
+    # - title: linkedin
+    #   url: https://www.linkedin.com/in/florentia-afentaki/
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
