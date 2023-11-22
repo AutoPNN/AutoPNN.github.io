@@ -175,12 +175,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  // max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  // margin: 10px 100px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  // margin-left: auto;
+  // padding-right: $spacing-unit;
+  // padding-left: $spacing-unit;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
