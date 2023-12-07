@@ -62,7 +62,8 @@ people:
   position: PhD Candidate
   social:
     # - title: scholar
-    #   url: 
+    - title: twitter
+      url: https://www.researchgate.net/profile/Florentia-Afentaki
     - title: envelope
       url: mailto:afentaki@ceid.upatras.gr
     # - title: linkedin
