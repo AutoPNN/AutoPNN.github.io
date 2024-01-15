@@ -6,22 +6,17 @@
   <body>
 
     {%- include header.html -%}
-    <main>
+
+    <main class="page-content">
       <div class="centering">
-    <!-- <main class="page-content">
-      <div class="wrapper"> -->
-        {%- include intro.html -%}
-        {%- include description.html -%}
-        {%- include goal.html -%}
-        {%- include aboutUs.html -%}
-        {%- include news.html -%}
-      <!-- </div> -->
-    <!-- </main> -->
-  </div>
-  </main>
+
+        {{ content }}
+
+      </div>
+    </main>
     
     {%- include footer.html -%}
+</body>
 
-  </body>
 
 </html>

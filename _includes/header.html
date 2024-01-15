@@ -1,17 +1,10 @@
 <header class="site-header" role="banner" id="myHeader">
 
     <div class="wrapper">
-      {%- assign default_paths = site.pages | map: "path" -%}
-      {%- assign page_paths = site.header_pages | default: default_paths -%}
-      
-      <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-        {%- if site.logo -%}
-          <img src="{{site.logo |relative_url}}" alt="{{ site.title | escape }}" height="50"></img>
-        {%- else -%}
-          {{ site.title | escape }}
-        {%- endif -%}
 
+      <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}"> -->
+      <a class="site-title" rel="author" href="../intro.html">
+          <img src="images\logo.png" alt="{{ site.title | escape }}" height="50"></img>
         <nav class="site-nav navbar navbar-expand-lg navbar-light bg-light">
           <input type="checkbox" id="nav-trigger" class="nav-trigger" />
           <label for="nav-trigger">
@@ -23,11 +16,13 @@
           </label>
 
           <div class="trigger">
-              <a class="page-scroll" href="#description">Description</a>
-              <a class="page-scroll" href="#goal">Goal</a>
-              <a class="page-scroll" href="#aboutUs">About Us</a>
-              <a class="page-scroll" href="#news">News</a>
-              <a class="page-scroll" href="#eldek">Funding</a>
+              <!-- <a class="page-scroll" href="description.html">Description</a> -->
+              <a href="../description.html" style="margin: 10px; padding: 10px; border: 5px;">Description</a>
+              <a href="../goal.html" style="margin: 10px; padding: 10px; border: 5px;">Goal</a>
+              <a href="../aboutUs.html" style="margin: 10px; padding: 10px; border: 5px;">About Us</a>
+              <a href="../sources.html" style="margin: 10px; padding: 10px; border: 5px;">Sources</a>
+              <a href="../news.html" style="margin: 10px; padding: 10px; border: 5px;">News</a>
+              <a href="../ack.html" style="margin: 10px; padding: 10px; border: 5px;">Funding</a>
           </div>
         </nav>
 
@@ -53,5 +48,8 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
    <!-- Include all compiled plugins (below), or include individual files as needed -->
    <script src="js/bootstrap.min.js"></script>
-
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+   <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
    <body>

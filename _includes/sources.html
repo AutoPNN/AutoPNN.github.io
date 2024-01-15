@@ -1,0 +1,96 @@
+<section id="sources" class="bg-light-gray">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Sources</h2>
+        </div>
+    </div>
+    <div class="row">
+        <ul class="list-group col-lg-12">
+            <div class="container">
+                <div class="post-content">
+    
+                    <h3 style=" color: darkseagreen;  font-size: 16px; font-style: italic;">Papers.</h3>
+                    <ul>
+                        <h8>On-sensor Printed Machine Learning Classification via Bespoke ADC and Decision Tree Co-Design DATE2024</h8>
+                        <a href="papers/armeniakos2024onsensor.pdf"> [pdf]</a>
+                        <!-- <a href="papers/armeniakos2024onsensor.pdf"> [github]</a> -->
+                    </ul>
+                    <ul>
+                        <h8>Bespoke Approximation of Multiplication-Accumulation and Activation Targeting Printed Multilayer Perceptrons ICCAD2023</h8>
+                        <a href="papers/afentakik2023bespokeapproximations.pdf"> [pdf]</a>
+                        <a href="https://github.com/floAfentaki/Approximation-Techniques-Targeting-Printed-MLPs/tree/main/Bespoke-Approximation-of-Multiplication-Accumulation-and-Activation_ICCAD23"> [github]</a>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+        <div class="container">
+            <h3 style="color: darkseagreen; font-size: 16px; font-style: italic; margin-top: 10px; margin-bottom: 10px;">Presentations</h3>
+                <!-- <div class="row"> -->
+                    <!-- Masonry grid -->
+                    <div class="gallery-wrapper">
+                        <!-- Grid sizer -->
+                        <div class="grid-sizer col-lg-4 col-md-6"></div>
+                
+                        <div class="col-lg-4 col-md-6 grid-item mb-4">
+                            <img class="img-fluid w-100 mb-3 img-thumbnail shadow-sm rounded-0"
+                                 src="/images/smart_plant_img/Approximate computing in neural networks Presenter Mrazek Vojtech Brno University of Technology Czech.png"
+                                    alt="Presentation 1"
+                                    />
+                                    <h2 class="h4">Smart-Plant IEEE Seasonal School</h2>
+                                    <p class="small text-muted font-italic">Approximate computing in neural networks</p>
+                                    <p class="small text-muted font-italic">Presenter: Mrazek Vojtech</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6 grid-item mb-4">
+                                <img class="img-fluid w-100 mb-3 img-thumbnail shadow-sm rounded-0"
+                                src="/images/smart_plant_img/Printed Computing Design Automation and Computing based on Additive Printed Electronics_Mehdi B. Tahoori CDNC KIT.png" 
+                                alt="Presentation 2"
+                                />
+                                <h2 class="h4">Smart-Plant IEEE Seasonal School</h2>
+                                <p class="small text-muted font-italic">Printed Computing: Design Automation and Computing based on Additive Printed Electronics</p>
+                                <p class="small text-muted font-italic">Presenter: Mehdi B. Tahoori</p>
+                
+                            </div>
+                            <div class="col-lg-4 col-md-6 grid-item mb-4">
+                                <img class="img-fluid w-100 mb-3 img-thumbnail shadow-sm rounded-0"
+                                src="images\smart_plant_img\iccad2023_afentaki.png"
+                                alt="ICCAD23 afentaki"
+                                />
+                                <h2 class="h4">IEEE/ACM ICCAD 2023</h2>
+                                <p class="small text-muted font-italic">Bespoke Approximation of Multiplication-Accumulation and Activation Targeting Printed Multilayer Perceptrons.</p>
+                                <p class="small text-muted font-italic">Presenter: Florentia Afentaki</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6 grid-item mb-4">
+                                <img class="img-fluid w-100 mb-3 img-thumbnail shadow-sm rounded-0"
+                                src="images\smart_plant_img\iccad2023_highattendance.png"
+                                alt="ICCAD2023 high attendance"
+                                />
+                                <h2 class="h4">IEEE/ACM ICCAD 2023</h2>
+                                <p class="small text-muted font-italic">Bespoke Approximation of Multiplication-Accumulation and Activation Targeting Printed Multilayer Perceptrons.</p>
+                                <p class="small text-muted font-italic">Presenter: Florentia Afentaki</p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>  
+            
+
+</section>
+
+<script>
+    $(function () {
+
+// Initate masonry grid
+var $grid = $('.gallery-wrapper').masonry({
+    temSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    percentPosition: true,
+});
+
+// Initate imagesLoaded
+$grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+});
+
+});
+</script>

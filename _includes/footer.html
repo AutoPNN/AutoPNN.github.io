@@ -1,32 +1,31 @@
-</body>
-<footer>
-  <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
+<!-- <section class=""> -->
+  <!-- Footer -->
+  <footer class="bg-body-tertiary text-center">
+    <!-- Grid container -->
+    <div style="background-color: white;" class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <!-- <h5 class="text-uppercase">Social Media</h5> -->
           {%- include icon-github.html -%}
+        </div>
+        <!--Grid column-->
 
-          {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          {%- endif -%}
-
-          {%- if site.copyrights -%}
-          <li>&copy;{{ site.copyrights }} {{ 'now' | date: "%Y"}}</li>
-          {%- endif -%}
-        </ul>
-
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          {%- include eldek.html -%}
+        </div>
+        <!--Grid column-->
+        
       </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
 
-      <div class="footer-col footer-col-3">
-        {%- include eldek.html -%}
-      </div> 
-    </div> 
-  </div>
+    <div style="background-color: white" class="text-center p-3">
+      Copyright © AutoPNN 2024. All right reserved.
+    </div>
 
-</footer>
+  </footer>
+<!-- </section> -->

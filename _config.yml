@@ -21,10 +21,9 @@
 title: AutoPNN
 email: afentaki@ceid.upatras.gr
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my website!
+  Welcome to AutoPNN!
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://autopnn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
 github_username:  AutoPNN
 
 # Fields that are either not exist or used in a not default way in the theme Minima
@@ -52,25 +51,17 @@ people:
       url: https://scholar.google.com/citations?hl=en&user=YAfTI78AAAAJ
     - title: envelope
       url: mailto:mardounavi@ceid.upatras.gr
-    # - title: linkedin
-      # url: https://www.linkedin.com/in/florentia-afentaki/
-
 
 
 - name: Florentia Afentaki
   pic: Afentaki2
   position: PhD Candidate
   social:
-    # - title: scholar
-    - title: twitter
-      url: https://www.researchgate.net/profile/Florentia-Afentaki
+    - title: graduation-cap
+      url: https://scholar.google.com/citations?user=GS1ICnIAAAAJ&hl=el&oi=ao
     - title: envelope
       url: mailto:afentaki@ceid.upatras.gr
-    # - title: linkedin
-    #   url: https://www.linkedin.com/in/florentia-afentaki/
 
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
@@ -96,6 +87,20 @@ address:
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-tabs
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
+header_pages:
+  - Home: /
+  # - About: /about
+  # - Sources: /sources
+  # Add other menu items as needed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -116,3 +121,11 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
