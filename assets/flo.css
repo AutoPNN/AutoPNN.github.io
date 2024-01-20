@@ -28,9 +28,9 @@ p.large {
     margin-right: 10px; /* Adjust the margin as needed */
 }
 
-.dotted-list {
+/* .dotted-list {
     list-style: none;
-}
+} */
 
 .dotted-list li {
     position: relative;
@@ -125,6 +125,28 @@ h6 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+  }
+  
+summary {
+font-weight: bold;
+margin: -0.5em -0.5em 0;
+padding: 0.5em;
+}
+  
+details[open] {
+padding: 0.5em;
+}
+
+details[open] summary {
+border-bottom: 1px solid #aaa;
+margin-bottom: 0.5em;
+}
+  
 
 .img-centered {
     margin: 0 auto
@@ -435,7 +457,7 @@ section h3.section-subheading {
 .timeline {
     position: relative;
     padding: 0;
-    list-style: none;
+    /* list-style: none; */
 }
 
 .timeline:before {
