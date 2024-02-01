@@ -211,6 +211,16 @@ margin-bottom: 0.5em;
     background-color: #000;
 }
 
+@media (min-width: 992px) {
+    .navbar .navbar-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar .navbar-toggler {
+        display: none;
+    }
+}
+
 .site-nav{
     position: sticky;
     background-color: #ffffff;

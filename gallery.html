@@ -1,5 +1,5 @@
 ---
-permalink: /images.html
+permalink: /gallery.html
 layout: default
 ---
 
@@ -37,7 +37,7 @@ layout: default
                         <div class="grid-sizer col-lg-4 col-md-6"></div>
                 
                         <div class="col-lg-4 col-md-6 grid-item mb-4">
-                            <img class="img-fluid w-100 mb-3 img-thumbnail shadow-sm rounded-0"
+                            <img id="myImg" class="img-fluid w-100 mb-3 img-thumbnail shadow-sm rounded-0"
                                  src="/images/smart_plant_img/Approximate computing in neural networks Presenter Mrazek Vojtech Brno University of Technology Czech.png"
                                     alt="Presentation 1"
                                     />
@@ -46,7 +46,7 @@ layout: default
                                     <p class="small text-muted font-italic">Presenter: Mrazek Vojtech</p>
                             </div>
                             <div class="col-lg-4 col-md-6 grid-item mb-4">
-                                <img class="img-fluid w-100 mb-3 img-thumbnail shadow-sm rounded-0"
+                                <img id="myImg" class="img-fluid w-100 mb-3 img-thumbnail shadow-sm rounded-0"
                                 src="/images/smart_plant_img/Printed Computing Design Automation and Computing based on Additive Printed Electronics_Mehdi B. Tahoori CDNC KIT.png" 
                                 alt="Presentation 2"
                                 />
@@ -56,7 +56,7 @@ layout: default
                 
                             </div>
                             <div class="col-lg-4 col-md-6 grid-item mb-4">
-                                <img class="img-fluid w-100 mb-3 img-thumbnail shadow-sm rounded-0"
+                                <img id="myImg" class="img-fluid w-100 mb-3 img-thumbnail shadow-sm rounded-0"
                                 src="images\smart_plant_img\iccad2023_afentaki.png"
                                 alt="ICCAD23 afentaki"
                                 />
@@ -65,7 +65,7 @@ layout: default
                                 <p class="small text-muted font-italic">Presenter: Florentia Afentaki</p>
                             </div>
                             <div class="col-lg-4 col-md-6 grid-item mb-4">
-                                <img class="img-fluid w-100 mb-3 img-thumbnail shadow-sm rounded-0"
+                                <img id="myImg" class="img-fluid w-100 mb-3 img-thumbnail shadow-sm rounded-0"
                                 src="images\smart_plant_img\iccad2023_highattendance.png"
                                 alt="ICCAD2023 high attendance"
                                 />
@@ -79,7 +79,11 @@ layout: default
                 </div>
         </div>  
             
-
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img id="modal-img" class="modal-content"  src="">
+            <div id="caption"></div>
+          </div> 
 </section>
 
 <script>
@@ -98,4 +102,132 @@ $grid.imagesLoaded().progress( function() {
 });
 
 });
+</script>
+
+
+
+<style>
+#myImg {
+
+border-radius: 5px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+#myImg2 {
+
+border-radius: 5px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 100px; /* Location of the box */
+left: 0;
+top: 145px;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+margin: auto;
+display: block;
+width: 80%;
+max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+margin: auto;
+display: block;
+width: 80%;
+max-width: 700px;
+text-align: center;
+color: #ccc;
+padding: 10px 0;
+height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+-webkit-animation-name: zoom;
+-webkit-animation-duration: 0.6s;
+animation-name: zoom;
+animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+from {-webkit-transform:scale(0)} 
+to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+from {transform:scale(0)} 
+to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+position: absolute;
+top: 15px;
+right: 35px;
+color: #f1f1f1;
+font-size: 40px;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+color: #bbb;
+text-decoration: none;
+cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+.modal-content {
+  width: 100%;
+}
+}
+</style>
+
+<script>
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var modalImg = document.getElementById("modal-img");
+var captionText = document.getElementById("caption");
+
+document.addEventListener("click", (e) => {
+  const elem = e.target;
+  if (elem.id==="myImg") {
+    modal.style.display = "block";
+    modalImg.src = elem.dataset.biggerSrc || elem.src;
+    captionText.innerHTML = elem.alt; 
+  }
+})
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
 </script>
