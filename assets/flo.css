@@ -211,7 +211,8 @@ margin-bottom: 0.5em;
     background-color: #000;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) { */
+@media (min-width: 480px) {
     .navbar .navbar-nav {
         display: flex;
         justify-content: space-between;
