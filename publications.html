@@ -6,15 +6,20 @@ layout: default
 <style>
   /* .btn:before {
     content: '\002B';
-  }
-   */
+  } */
+  
   /* .btn:after {
     content: "\2212";
   } */
 
-  .btn-link:after{
+  /* .btn-link:before{
     content: '\002B';
-  }
+  } */
+
+  /* .btn-link:after{
+    float: right;
+    content: '\2212';
+  } */
   </style>
 
 <!-- <section id="sources" class="bg-light-gray"> -->
@@ -30,16 +35,17 @@ layout: default
             <div class="container" style="background-color: white; color: black">
 
               <div class="accordion" id="accordionExample">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
+                <div style="padding-top: 10px;" class="card">
+                  <h5 class="mb-0">Conferences</h5>
+                  <!-- <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
                       <button style="color: black;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <h5>AutoPNN</h5>
+                        <h5>Conferences</h5>
                       </button>
                     </h5>
-                  </div>
+                  </div> -->
               
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <!-- <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample"> -->
                     <div class="card-body text-justify">
 
                       <p>
@@ -54,17 +60,46 @@ layout: default
                       </p>
 
                     </div>
-                  </div> 
+                  <!-- </div>  -->
                 </div>
+
                 <div class="card">
-                  <!-- <div class="card-header" id="headingTwo"> -->
+                  <!-- <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
+                      <button style="color: black;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h5>Journals</h5>
+                      </button>
+                    </h5>
+                  </div> -->
+                  <h5 style="padding-top: 30px;" class="mb-0">Journals</h5>
+             
+                  <!-- <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample"> -->
+                    <div class="card-body text-justify">
+
+                      <!-- <p>
+                        <div class="csl-right-inline">F. Afentaki, G. Saglam, A. Kokkinis, K. Siozios, G. Zervakis and M. B. Tahoori, 
+                          "Bespoke Approximation of Multiplication-Accumulation and Activation Targeting Printed Multilayer Perceptrons," 
+                          in <em>IEEE/ACM International Conference on Computer Aided Design (ICCAD), San Francisco, CA, USA, 2023</em>,
+                          pp. 1-9, 
+                          doi: <a href="https://doi.org/10.1109/ICCAD57390.2023.10323613">10.1109/ICCAD57390.2023.10323613</a>. 
+                          [<a href="papers/afentaki2023bespokeapproximations.pdf" class="git">pdf</a>]
+                          [<a href="https://github.com/floAfentaki/Approximation-Techniques-Targeting-Printed-MLPs" class="git">github</a>]
+                        </div>
+                      </p> -->
+
+                    </div>
+                  <!-- </div>  -->
+                </div>
+
+                <div class="card">
+                    <!-- <h5 class="mb-0">
                       <button style="color: black;" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <h5>Related Work</h5>
                       </button>
-                    </h5>
-                  <!-- </div> -->
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    </h5> -->
+                  <h5 style="padding-top: 30px;" class="mb-0">Related Work</h5>
+
+                  <!-- <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample"> -->
                     <div class="card-body text-justify">
 
                       <!-- <p>
@@ -160,18 +195,18 @@ layout: default
                       </p>
 
                     </div>
-                  </div>
+                  <!-- </div> -->
                 </div>
 
                 <div class="card">
-                  <!-- <div class="card-header" id="headingTwo"> -->
-                    <h5 class="mb-0">
+                    <!-- <h5 class="mb-0">
                       <button style="color: black;" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
-                        <h5>Other Related Work</h5>
+                        <h5>Other Related Readings</h5>
                       </button>
-                    </h5>
-                  <!-- </div> -->
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    </h5> -->
+                    <h5 style="padding-top: 30px;" class="mb-0">Other Related Readings</h5>
+
+                  <!-- <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample"> -->
                     <div class="card-body text-justify">
 
                       <p>
@@ -208,68 +243,8 @@ layout: default
                           doi: <a href="//doi.org/10.1038/s41586-021-03625-w">10.1038/s41586-021-03625-w</a>
                         </div>
                       </p>
-
-                      <!-- <p>
-                        <div>
-                          D. Weller, G. Cadilha Marques, J. Aghassi-Hagmann and M. B. Tahoori, 
-                          "An Inkjet-Printed Low-Voltage Latch Based on Inorganic Electrolyte-Gated Transistors," 
-                          in <em>IEEE Electron Device Letters, 2018</em>, 
-                          vol. 39, no. 6, pp. 831-834, June 2018, 
-                          doi: <a href="https://doi.org/10.1109/LED.2018.2826361">10.1109/LED.2018.2826361</a>.
-                        </div>
-                      </p>
-
-
-                      <p>
-                        <div class="csl-right-inline">
-                          N. Bleier, M. H. Mubarik, F. Rasheed, J. Aghassi-Hagmann, M. B. Tahoori and R. Kumar, 
-                          "Printed Microprocessors," 
-                          in <em> ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA), Valencia, Spain, 2020, </em>
-                          pp. 213-226, 
-                          doi: <a href="https://doi.org/10.1109/ISCA45697.2020.00028."> 10.1109/ISCA45697.2020.00028</a>.
-                        </div>
-                      </p>
-
-                      <p>
-                        <div class="csl-right-inline">
-                          M. H. Mubarik et al., 
-                          "Printed Machine Learning Classifiers," 
-                          in <em> 53rd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), Athens, Greece, 2020,</em>
-                          pp. 73-87, 
-                          doi: <a href="https://doi.org/10.1109/MICRO50266.2020.00019"> 10.1109/MICRO50266.2020.00019</a>.
-                        </div>
-                      </p>
-
-                      <p>
-                        <div class="csl-right-inline">
-                          D. D. Weller et al., 
-                          "Printed Stochastic Computing Neural Networks," 
-                          in <em>2021 Design, Automation & Test in Europe Conference & Exhibition (DATE), Grenoble, France, 2021,</em>
-                          pp. 914-919, 
-                          doi: <a href="https://doi.org/10.23919/DATE51398.2021.9474254"> 10.23919/DATE51398.2021.9474254</a> .
-                        </div>
-                      </p>
-                      
-                      <p>
-                        <div class="csl-right-inline">K. Balaskas, G. Zervakis, K. Siozios, M. B. Tahoori, and J. Henkel, 
-                        “Approximate decision trees for machine learning classification on tiny printed circuits,” 
-                        in <em>23rd international symposium on quality electronic design, ISQED 2022, santa clara, CA, USA, april 6-7, 2022</em>, 
-                        IEEE, 2022, pp. 1–6. 
-                        doi: <a href="https://doi.org/10.1109/ISQED54688.2022.9806213">10.1109/ISQED54688.2022.9806213</a>.
-                        </div>
-                      </p>
-
-                      <p>
-                        <div class="csl-right-inline">G. Armeniakos, G. Zervakis, D. Soudris, M. B. Tahoori, and J. Henkel, 
-                          “Cross-layer approximation for printed machine learning circuits,” 
-                          in <em>2022 Design, Automation &amp; Test in Europe Conference &amp; Exhibition, DATE 2022, Antwerp, Belgium, March 14-23, 2022</em>,
-                          pp. 190–195. doi: <a href="https://doi.org/10.23919/DATE54114.2022.9774689">10.23919/DATE54114.2022.9774689</a>. 
-                          [<a href="https://github.com/garmeniakos/Ax-Printed-ML-Classifiers" class="git">github</a>]
-                        </div>
-                      </p> -->
-
                     </div>
-                  </div>
+                  <!-- </div> -->
                 </div>
               </div>
         </div>          
