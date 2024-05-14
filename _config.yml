@@ -62,6 +62,15 @@ people:
       url: https://scholar.google.com/citations?user=GS1ICnIAAAAJ&hl=el&oi=ao
     - title: envelope
       url: mailto:afentaki@ceid.upatras.gr
+  
+- name: Panagiotis Papanikolaou
+  pic: papanikolaou
+  position: Scientific Personnel 
+  social:
+    # - title: graduation-cap
+      # url: https://scholar.google.com/citations?user=GS1ICnIAAAAJ&hl=el&oi=ao
+    - title: envelope
+      url: mailto:panagip@umich.edu
 
 social:
   - title: twitter
