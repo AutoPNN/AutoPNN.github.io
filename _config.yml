@@ -1,0 +1,142 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: AutoPNN
+email: afentaki@ceid.upatras.gr
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to AutoPNN!
+# baseurl: "/" # the subpath of your site, e.g. /blog
+# baseurl: "/home.html" # the subpath of your site, e.g. /blog
+url: "https://autopnn.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  AutoPNN
+
+# Fields that are either not exist or used in a not default way in the theme Minima
+author: Florentia Afentaki
+copyrights: "AutoPNN"
+linkedin_username: florentia-afentaki
+logo: images/logo.svg
+
+# Team names, titles and social links
+people:
+- name: Georgios Zervakis
+  pic: Zervakis
+  position: Assistant Professor
+  social:
+    - title: graduation-cap
+      url: https://scholar.google.gr/citations?user=hZtfPegAAAAJ&hl=el
+    - title: envelope
+      url: mailto:zervakis@ceid.upatras.gr
+
+- name: Marilena Dounavi
+  pic: Dounavi
+  position: Laboratory Teaching Staff
+  social:
+    - title: graduation-cap
+      url: https://scholar.google.com/citations?hl=en&user=YAfTI78AAAAJ
+    - title: envelope
+      url: mailto:mardounavi@ceid.upatras.gr
+
+
+- name: Florentia Afentaki
+  pic: Afentaki2
+  position: PhD Candidate
+  social:
+    - title: graduation-cap
+      url: https://scholar.google.com/citations?user=GS1ICnIAAAAJ&hl=el&oi=ao
+    - title: envelope
+      url: mailto:afentaki@ceid.upatras.gr
+  
+- name: Panagiotis Papanikolaou
+  pic: papanikolaou
+  position: Scientific Personnel 
+  social:
+    # - title: graduation-cap
+      # url: https://scholar.google.com/citations?user=GS1ICnIAAAAJ&hl=el&oi=ao
+    - title: envelope
+      url: mailto:panagip@umich.edu
+
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Computer Engineering & Informatics Department
+  - line: University Campus
+  - line: 26504, Patras
+  - line: Greece
+
+# Build settings
+# Removed minima theme as i copied everything indide from
+# from path C:/Users/afent/.local/share/gem/ruby/3.2.0/gems/minima-2.5.1
+# theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-tabs
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
+header_pages:
+  - Home: /home.html
+  # - Home: /
+  # - About: /about
+  # - Sources: /sources
+  # Add other menu items as needed
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"

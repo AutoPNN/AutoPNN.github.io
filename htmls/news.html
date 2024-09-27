@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <html lang="{{ page.lang | default: site.lang | default: "en" }}"> -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/main.css">
+    <link rel="stylesheet" href="../assets/flo.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+<header class="site-header" role="banner" id="myHeader">
+
+    <div class="wrapper">
+
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+          <img src="../images\logo.png" alt="{{ site.title | escape }}" height="50"></img>
+        <nav class="site-nav navbar navbar-expand-lg navbar-light bg-light">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+              <a class="page-scroll" href="#description">Description</a>
+              <a class="page-scroll" href="#goal">Goal</a>
+              <a class="page-scroll" href="#aboutUs">About Us</a>
+              <a class="page-scroll" href="#sources">Sources</a>
+              <a href="/_includes/news.html">News</a>
+              <a class="page-scroll" href="#eldek">Funding</a>
+          </div>
+        </nav>
+
+    </div>
+</header>
+
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  </script>
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="../js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+   <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+   <!-- <body> -->
+  
+    <main class="page-content">
+        <div class="centering">
+
+<section id="news" class="bg-light-gray">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">News</h2>
+            <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+        </div>
+    </div>
+    <div class="row">
+    <!-- <h2>Conference Papers</h2> -->
+        <ul class="list-group col-lg-12">
+            <div class="container">
+                <li class="list-group-item ">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 align="right">[Keynote]</h5> 
+                        </div>
+                        <div class="card-body text-center" >
+                            <h6 class="card-title">“Printed Computing: Design Automation and Computing based on Additive Printed Electronics”</h6>
+                            <p class="card-text">Presenter: Mehdi B. Tahoori, Chair of Dependable Nano Computing (CDNC), Karlsruhe Institute of Technology</p>
+                            <h7 class="card-text">Our keynote talk has been presented at Smart-Plant IEEE Seasonal School 2024.</h7>
+                        </div>
+                    </div>
+                </li>
+            </div>
+            <div class="container">
+                <li class="list-group-item ">
+                    <div class="card">
+                        <div class="card-header">
+                            <!-- <span class="news-date">11/2023</span> -->
+                            <!-- <span class="news-category">[Keynote]</span> -->
+                            <h5 align="right">[Keynote]</h5> 
+                        </div>
+                        <div class="card-body text-center" >
+                            <h6 class="card-title">“Approximate computing in neural networks”</h6>
+                            <p class="card-text">Presenter: Mrazek Vojtech, Brno University of Technology (Czech)</p>
+                            <h7 class="card-text">Our keynote talk has been presented at Smart-Plant IEEE Seasonal School 2024.</h7>
+                        </div>
+                    </div>
+                </li>
+            </div>
+            <div class="container">
+                <li class="list-group-item ">
+                    <div class="card">
+                        <div class="card-header">
+                            <!-- <span class="news-date">11/2023</span> -->
+                            <!-- <span class="news-category">[Paper]</span> -->
+                            <h5 align="right">[Paper]</h5> 
+                        </div>
+                        <div class="card-body text-center" >
+                            <h6 class="card-title">“On-sensor Printed Machine Learning Classification via Bespoke ADC and Decision Tree Co-Design”</h6>
+                            <p class="card-text">Georgios Armeniakos, Priyanjana Pal, Georgios Zervakis, Mehdi B. Tahoori</p>
+                            <h7 class="card-text">Our paper has been accepted by the Design Automation and Test in Europe 2024 Conference (DATE’24).</h7>
+                        </div>
+                    </div>
+                </li>
+            </div>
+            <div class="container">
+                <li class="list-group-item">
+                    <div class="card">
+                        <div class="card-header">
+                            <!-- <span class="news-date">11/2023</span> -->
+                            <!-- <span class="news-category">[paper]</span> -->
+                            <h5 align="right">[Paper]</h5> 
+                        </div>
+                        <div class="card-body text-center" >
+                            <h6 class="card-title">Embedding Hardware Approximations in Discrete Genetic-based Training for Printed MLPs</h6>
+                            <p class="card-text">Florentia Afentaki, Michael Hefenbrock, Georgios Zervakis, Mehdi B. Tahoori</p>
+                            <h7 class="card-text">Our paper has been accepted by the Design Automation and Test in Europe 2024 Conference (DATE’24).</h7>
+                        </div>
+                    </div>
+                </li>
+            </div>
+            <div class="container">
+                <li class="list-group-item">
+                    <div class="card">
+                        <div class="card-header">
+                            <!-- <span class="news-date">11/2023</span> -->
+                            <!-- <span class="news-category">[Paper]</span> -->
+                            <h5 align="right">[Paper]</h5> 
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Bespoke Approximation of Multiplication-Accumulation and Activation Targeting Printed Multilayer Perceptrons</h6>
+                            <p class="card-text">Florentia Afentaki, Gurol Saglam, Argyris Kokkinis, Kostas Siozios, Georgios Zervakis, Mehdi B. Tahoori</p>
+                            <h7 class="card-text">
+                                Our paper has been accepted by the International Conference on Computer-Aided Design 2023 (ICCAD’23).
+                            </h7>
+                        </div>
+                    </div>
+                </li>
+            </div>
+
+            <!-- Add more papers as needed -->
+        </ul>
+    </div>
+</section>
+
+</div>
+</main>
+</body>
+
+
+<!-- <section class=""> -->
+  <!-- Footer -->
+  <footer class="bg-body-tertiary text-center">
+    <!-- Grid container -->
+    <div style="background-color: white;" class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <!-- <h5 class="text-uppercase">Social Media</h5> -->
+          <!-- {%- include icon-github.html -%} -->
+          <a href="https://github.com/AutoPNN"><span class="icon icon-github">../_include/icon-github.svg</span><span class="username">AutoPNN</span></a>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <div class="row" id="eldek">
+            <div class="team-member">
+                <!-- <img src="images/elke.png" alt="" height=60> -->
+                <!-- <img src="images/elidek.png" alt="" height=60> -->
+                <img src="../images/logo-zervakis-1024x185.png" alt="" height=60>
+                <!-- <p class="text-muted">This Project was funding by University of Patras Research Funding Account</p> -->
+                <p class="text-muted">This project has been co-funded by the General Secretariat for Research and Technology (GSRT) and the Hellenic Foundation for Research and Innovation (HFRI)</p>
+            </div>
+        </div>
+        
+        </div>
+        <!--Grid column-->
+        
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <div style="background-color: white" class="text-center p-3">
+      Copyright © AutoPNN 2024. All right reserved.
+    </div>
+
+  </footer>
+<!-- </section> -->
