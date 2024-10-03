@@ -53,13 +53,21 @@ people:
     - title: envelope
       url: mailto:mardounavi@ceid.upatras.gr
 
+- name: Kostantinos Balaskas
+  pic: balaskas
+  position: Post Doctoral researcher
+  social:
+    - title: graduation-cap
+      url: https://scholar.google.gr/citations?hl=el&user=_8XWxwgAAAAJ
+    - title: envelope
+      url: mailto:kompalas@ceid.upatras.gr
 
 - name: Florentia Afentaki
-  pic: Afentaki2
+  pic: Afentaki
   position: PhD Candidate
   social:
     - title: graduation-cap
-      url: https://scholar.google.com/citations?user=GS1ICnIAAAAJ&hl=el&oi=ao
+      url: https://scholar.google.com/citations?user=kcZwdPcAAAAJ&hl=el&oi=ao
     - title: envelope
       url: mailto:afentaki@ceid.upatras.gr
   

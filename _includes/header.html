@@ -2,6 +2,16 @@
 
 <header class="site-header" role="banner" id="myHeader" style="background-color: rgb(206, 218, 233);">
     <style>
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: thistle;
+}
+  
+::selection {
+    color: white;
+    background: thistle;
+}
       @media (min-width: 480px) {
     .navbar .navbar-nav {
         display: flex;
@@ -58,7 +68,7 @@
   opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
   
-  -webkit-touch-callout: none;
+  -webkit-touch-callout: text;
 }
 
 /*
@@ -246,7 +256,7 @@
 
 
 
-<script>
+<!-- <script>
   window.onscroll = function() {myFunction()};
   
   var header = document.getElementById("myHeader");
@@ -259,5 +269,5 @@
       header.classList.remove("sticky");
     }
   } 
-  </script>
+  </script> -->
 
