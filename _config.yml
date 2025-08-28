@@ -44,15 +44,6 @@ people:
     - title: envelope
       url: mailto:zervakis@ceid.upatras.gr
 
-- name: Marilena Dounavi
-  pic: Dounavi
-  position: Laboratory Teaching Staff
-  social:
-    - title: graduation-cap
-      url: https://scholar.google.com/citations?hl=en&user=YAfTI78AAAAJ
-    - title: envelope
-      url: mailto:mardounavi@ceid.upatras.gr
-
 - name: Kostantinos Balaskas
   pic: balaskas
   position: Post Doctoral researcher
@@ -70,6 +61,19 @@ people:
       url: https://scholar.google.com/citations?user=kcZwdPcAAAAJ&hl=el&oi=ao
     - title: envelope
       url: mailto:afentaki@ceid.upatras.gr
+
+
+
+# Past Team names, titles and social links
+old_people:
+- name: Marilena Dounavi
+  pic: Dounavi
+  position: Laboratory Teaching Staff
+  social:
+    - title: graduation-cap
+      url: https://scholar.google.com/citations?hl=en&user=YAfTI78AAAAJ
+    - title: envelope
+      url: mailto:mardounavi@ceid.upatras.gr
   
 - name: Panagiotis Papanikolaou
   pic: papanikolaou
