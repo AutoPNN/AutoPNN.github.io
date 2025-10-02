@@ -84,6 +84,44 @@ old_people:
     - title: envelope
       url: mailto:panagip@umich.edu
 
+# Interns names, titles and social links
+interns:
+- name: Polykarpos Vergos
+  pic: P_vergos
+  position: Undergraduate Student
+  social:
+    # - title: graduation-cap
+      # url: https://scholar.google.com/citations?hl=en&user=YAfTI78AAAAJ
+    # - title: envelope
+      # url: mailto:mardounavi@ceid.upatras.gr
+  
+- name: Theofanis Vergos
+  pic: T_Vergos
+  position: Undergraduate Student
+  social:
+    # - title: graduation-cap
+      # url: https://scholar.google.com/citations?user=GS1ICnIAAAAJ&hl=el&oi=ao
+    # - title: envelope
+    #   url: mailto:panagip@umich.edu
+
+- name: Spyridon Besias
+  pic: mpesias
+  position: Undergraduate Student
+  social:
+    # - title: graduation-cap
+      # url: https://scholar.google.com/citations?user=GS1ICnIAAAAJ&hl=el&oi=ao
+    # - title: envelope
+      # url: mailto:
+
+- name: Elias Sertaridis
+  pic: sertaridis
+  position: Undergraduate Student
+  social:
+    # - title: graduation-cap
+      # url: https://scholar.google.com/citations?user=GS1ICnIAAAAJ&hl=el&oi=ao
+    # - title: envelope
+      # url: mailto: 
+
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
